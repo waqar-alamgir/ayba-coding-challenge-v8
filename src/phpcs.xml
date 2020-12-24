@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="PHP_CodeSniffer">
+    <description>PHPCS configuration file.</description>
+    <file>app/Http/Controllers/MatrixController.php</file>
+    <file>app/Providers/MatrixServiceProvider.php</file>
+    <file>app/Rules/SelfMatrix.php</file>
+    <file>app/Services/MatrixService.php</file>
+    <file>tests/Controllers/MatrixControllerTest.php</file>
+    <file>tests/Services/MatrixServiceTest.php</file>
+    <exclude-pattern>*/migrations/*</exclude-pattern>
+    <arg value="np" />
+    <rule ref="PSR12" />
+</ruleset>

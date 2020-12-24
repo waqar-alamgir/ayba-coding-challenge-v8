@@ -1,0 +1,4 @@
+/.idea
+src/Homestead.json
+src/Homestead.yaml
+src/.phpunit.result.cache
